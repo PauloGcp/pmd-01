@@ -7,6 +7,16 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/nomeGanhador"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="40px"
+        app:layout_constraintBottom_toTopOf="@+id/titulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/titulo"
         android:layout_width="158dp"
         android:layout_height="29dp"
